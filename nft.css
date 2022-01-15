@@ -1,0 +1,123 @@
+﻿body{
+    background-color:darkcyan;
+}
+
+.container {
+    padding: 7%;
+    margin: 0 auto;
+    width: 15%;
+    height: 64vh;
+    background-color: teal;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+h2,p,span,img{
+    position:relative;
+    left:1em;
+    top:1em;
+}
+.box p{
+    color:lightslategray;
+}
+.box >img{
+    transition:0.3s;
+
+}
+.cube {
+    position:relative;
+    top:1em;
+    left:1em;
+    border-radius:3%;
+    border-start-end-radius: 10%;
+    display: block;
+    width: 90%;
+    margin: auto 0;
+    cursor:pointer;
+    opacity:1;
+    
+}
+.cube:hover{
+    opacity:0;
+}
+.view {
+    width: initial;
+    background-color: rgba(0, 255, 255, 0.5);
+    position: absolute;
+    top: 2em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:0 auto;
+    opacity: 0;
+    padding: 35%;
+}
+.view:hover {
+    opacity: 1;
+}
+
+
+
+.box h2{
+    cursor:pointer;
+    color:antiquewhite;
+}
+      .box h2:hover {
+         color:aqua;
+      }
+.icon{
+    display:flex;
+    align-items:center;
+    padding-bottom:2em;
+    border-bottom:solid #808080;
+    border-width:thin;
+    
+}
+.eth {
+    padding:0.5%;
+    color: aqua;
+   }
+
+.time{
+    display:flex;
+    align-items:center;
+    position:relative;
+    right:-6em;
+    color: lightsteelblue;
+}
+.box {
+    
+    position:relative;
+    right:2.5em;
+    top:-4.5%;
+    height:auto;
+    width: 20vw;
+    padding: 3%;
+    background-color: #032725;
+    border-radius: 3%;
+}
+    
+     
+.avatar {
+    position: relative;
+    top: -1em;
+    margin: 3%;
+    display: flex;
+    align-content: center;
+    position: relative;
+    left:-0.2em;
+}
+.avatar img{
+    width:10%;
+    border:solid antiquewhite;
+    border-radius:100%;
+    }
+    .avatar p {
+        padding-left:3%;
+        color: lightsteelblue;
+    }
+    .avatar b{
+        cursor:pointer;
+    }
+    .avatar b:hover{
+        color:aqua;
+    }
